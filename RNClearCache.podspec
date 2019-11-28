@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.tvos.deployment_target = '10.0'
 
-  s.source       = { :git => "https://github.com/qiepeipei/react-native-clear-cache.git", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/17554265585/react-native-clear-cache.git", :tag => "v#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
