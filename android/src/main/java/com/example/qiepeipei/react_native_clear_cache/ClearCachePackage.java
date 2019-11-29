@@ -15,7 +15,7 @@ import java.util.List;
  */
 
 public class ClearCachePackage implements ReactPackage {
-    @Override
+    // @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
 
         List<NativeModule> modules = new ArrayList<>();
@@ -25,12 +25,12 @@ public class ClearCachePackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
 
-    @Override
+    // @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
     }
